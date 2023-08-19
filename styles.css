@@ -79,6 +79,7 @@ blockquote > p, cite {
   font-size: 1.2rem;
   line-height: 1.3;
   padding: 25px 10px 0px 10px;
+  color: #333;
 }
 
 #footer {
@@ -94,4 +95,17 @@ blockquote {
   border-radius: 10px;
   margin: 0 auto;
   max-width: 600px;
+}
+
+h3, strong, li {
+  color: #333;
+}
+
+#footer a {
+  color: skyblue
+}
+
+#todo {
+    font-style: italic;
+    color: #333;
 }
