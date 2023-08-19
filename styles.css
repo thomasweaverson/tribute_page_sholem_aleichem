@@ -56,14 +56,17 @@ img {
   max-width: 600px;
   margin: 2px auto;
   list-style: none;
+  padding-inline-start: 0px;
+  padding: 10px;
 }
 
 #tribute-info > ul > li {
   padding: 7px 0;
   line-height: 1.5em;
   /*text-indent: -50px;*/
-  width: 80%;
-  margin-left: 30px;
+  width: 100%;
+  margin-left: 0px;
+ 
 }
 
 ul {
