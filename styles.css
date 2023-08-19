@@ -125,5 +125,5 @@ strong {
     white-space: nowrap;
 }
 li > span {
-    white-space: pre-line;
+    white-space: pre-wrap;
 }
