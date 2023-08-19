@@ -122,4 +122,8 @@ li {
 strong {
   padding-right: 3px;
   margin-right: 3px;
+    white-space: nowrap;
+}
+li > span {
+    white-space: pre-line;
 }
