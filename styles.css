@@ -116,8 +116,15 @@ h3, strong, li {
 
 li {
   display: flex;
+  justify-content: flex-start;
   }
 
 strong {
   padding-right: 10px;
+  margin-right: 10px;
 }
+
+span {
+  padding-left: 10px;
+  margin-left: 10px;
+  }
