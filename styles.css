@@ -53,11 +53,15 @@ img {
   }
 
 #tribute-info > ul {
-  max-width: 600px;
+  width: 80%;
+  max-width: 1000px;
   margin: 2px auto;
   list-style: none;
   padding-inline-start: 0px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #tribute-info > ul > li {
@@ -69,13 +73,8 @@ img {
  
 }
 
-ul {
-  display: flex;
-  flex-direction: column;
-}
-
 blockquote > p, cite {
-  max-width: 370px;
+  max-width: 470px;
   margin: 20px 0 20px 5px;
   text-align: left;
   font-style: italic;   
@@ -90,7 +89,7 @@ blockquote > p, cite {
   padding: 0 0 30px 0;
   text-align: center;
   max-width: 800px;
-  font-weight: 100;
+  font-weight: 300;
     }
 
 blockquote {
@@ -98,7 +97,7 @@ blockquote {
   padding: 0px 20px 10px 20px;
   border-radius: 10px;
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 500px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -107,7 +106,7 @@ h3, strong, li {
 }
 
 #footer a {
-  color: skyblue
+  color: skyblue;
 }
 
 #todo {
@@ -117,8 +116,8 @@ h3, strong, li {
 
 li {
   display: flex;
-}
+  }
 
 strong {
-  padding-right: 3px;;
+  padding-right: 3px;
 }
